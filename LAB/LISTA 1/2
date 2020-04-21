@@ -1,0 +1,31 @@
+// Atividade2
+#include <stdlib.h>
+#include <math.h>
+ int main () {
+    float nota1 = 31, nota2 = 31, nota3 = 41, frequência = 101, total;
+    while (nota1> 30 || nota2> 30 || nota3> 40 || frequência> 100) {
+        printf ("Digite sua primeira nota:");
+        scanf ("% f", & nota1);
+       printf ("Digite sua segunda nota:");
+        scanf ("% f", & nota2);
+        printf ("Digite sua terceira nota:");
+        scanf ("% f", & nota3);
+       printf ("Digite sua frequência:");
+        scanf ("% f", & frequência);
+        }
+       total = nota1 + nota2 + nota3; 
+      if (frequência <75 || total <40) { 
+        printf ("Reprovado");
+       printf ("\ n \ n");
+        sistema ("pausa");
+        saída (0);
+    }
+      caso contrário, se (total> = 40 e& total <60) { 
+        printf ("Recuperação");
+    }
+  outro{ 
+        printf ("Aprovado!");
+    }
+     sistema ("pausa");
+    retornar 0;     
+}
