@@ -1,0 +1,18 @@
+//Atividade 1
+#include <stdio.h>
+#include <stdlib.h>
+ int main(){ 
+   int cont=5,contt=4;
+   while(cont!=0){
+   	printf("\n%i patinhos foram passear alem das montanhas para brincar.\nA mamae gritou quack quack quack,mas so %i patinhos voltaram de la",cont,contt);
+   	cont=cont-1;
+   	contt=contt-1;
+   }
+
+ system("pause");
+ 
+ return 0;
+
+ 
+ 
+} 
