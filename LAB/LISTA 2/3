@@ -1,0 +1,40 @@
+//Atividade 3
+#include <stdio.h>
+#include <stdlib.h>
+ int main(){ 
+   int id,form;
+   char sexo,cont;
+   printf("\nInforme o seu sexo: \nf(feminino)\nm(masculino)");
+   scanf("%c",&sexo);
+   printf("\nInforme sua idade");
+   scanf("%i",&id);
+   printf("\nInforme sua escolaridade:\n 1 para fundamental\n 2 para Medio\n 3 para Superior");
+   scanf("%i",&form);
+   if(sexo=='f'&& id>25 && form==2){
+   	printf("\nVoce pode se candidatar para o cargo de Recepcionista");
+   	printf("\nDeseja Continuar?\n s para SIM\n n para NAO");
+   	scanf("%c",&cont);
+   	if(cont=='n'){
+   		exit(0);
+	   }
+   }else
+   if(sexo=='m'&& id>40 && form==1){
+   	printf("\nVoce pode se candidatar para o cargo de Servente");
+   	printf("\nDeseja Continuar?\n s para SIM\n n para NAO");
+   	scanf("%c",&cont);
+   	if(cont=='n'){
+   		exit(0);
+	   }
+   }else 
+   if(sexo=='f'||sexo=='m'&& id<30 && form==3){
+   	printf("\nVoce pode se candidatar para o cargo de Auxiliar de RH");
+   	printf("\nDeseja Continuar?\n s para SIM\n n para NAO");
+   	scanf("%c",&cont);
+   	if(cont=='n'){
+   		exit(0);
+	   }
+   }else
+   printf("\nNao ha posicao disponivel");
+   system("pause");
+  return 0;
+}
