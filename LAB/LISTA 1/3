@@ -1,0 +1,41 @@
+// Atividade3 
+#include <stdio.h>
+#include <stdlib.h>
+int main () {
+	int n1, n2, n3, maior, meio, menor;
+	printf ("\ nDigite o primeiro número");
+	scanf ("% i", & n1);
+	printf ("\ nDigite o segundo número");
+	scanf ("% i", & n2);
+	printf ("\ nDigite o terceiro número");
+	scanf ("% i", & n3);
+	maior = n1;
+    if (n2> maior) {
+    	maior = n2; 
+    	if (n1> n3) {
+    		meio = n1;
+    		menor = n3;
+		} outro
+		meio = n3;
+		menor = n1;
+	}outro
+	if (n3> maior) {
+		maior = n3;
+		if (n1> n2) {
+			meio = n1;
+			menor = n2;
+		}outro
+		meio = n2;
+		menor = n1;
+	}
+	outro 
+	if (n2> n3) {
+		meio = n2;
+		menor = n3;
+	}outro
+	    meio = n3;
+	    menor = n2;
+	    printf ("\ nOs números em ordem crescente são:% i,% i,% i", menor, meio, maior);
+	    sistema ("pausa");
+	    retornar 0;
+	} 
