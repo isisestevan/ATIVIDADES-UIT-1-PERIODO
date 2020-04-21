@@ -1,0 +1,32 @@
+// Atividade 6 
+int main () {
+  int resp, cont = 0;
+  printf ("\ nResponda 0 para nao e 1 para sim");
+  printf ("\ nTelefonou para vitima?");
+  scanf ("% i", & resp);
+  cont = cont + resp;
+  printf ("\ nEstá local nenhum crime?");
+  scanf ("% i", & resp);
+  cont = cont + resp;
+  printf ("\ nMora perto da vitima?");
+  scanf ("% i", & resp);
+  cont = cont + resp;
+  printf ("\ nDevia para vitima?");
+  scanf ("% i", & resp);
+  cont = cont + resp;
+  printf ("\ nJa trabalhou com vitima?");
+  scanf ("% i", & resp);
+  cont = cont + resp;
+  if (cont == 2) {
+  	printf ("\ nSuspeito");
+  }outro
+  if (cont == 3 || cont == 4) {
+  	printf ("\ nCumplice");
+  } outro
+  if (cont == 5) {
+  	printf ("\ nAssasino"); }
+  	outro 
+  	printf ("\ nInocente");
+  	sistema ("pausa");
+  	retorno (0);
+	  }
