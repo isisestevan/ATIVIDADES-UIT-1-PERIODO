@@ -1,0 +1,46 @@
+\\ Atividade7
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+ int main () {
+	int tipo, pag;
+	float ptotal, qtd, valpagar;
+	printf ("\ nEscolha o tipo de carne: 1 para Arquivo Duplo \ n2 para Alcatra \ n3 para Picanha");
+	scanf ("% i", & tipo);
+    if (tipo == 1) {
+    	printf ("\ nInforme uma quantidade");
+    	scanf ("% f", & qtd);
+    	if (qtd> 5) {
+    		ptotal = (5,80 * qtd);
+    		}outro
+    		ptotal = 4,90 * qtd;}
+    if (tipo == 2) {
+    	printf ("\ nInforme uma quantidade");
+    	scanf ("% f", & qtd);
+    	if (qtd> 5) {
+    		ptotal = 6,80 * qtd;
+		}outro
+		ptotal = 5,90 * qtd;
+	}
+	if (tipo == 3) {
+	    printf ("\ nInforme uma quantidade");
+    	scanf ("% f", & qtd);
+    	if (qtd> 5) {
+    		ptotal = 7,80 * qtd;
+		}outro
+		ptotal = 6,90 * qtd;
+		}
+    printf ("\ nInforme o modo de pagamento: 1 para desconto. \ n2 para pagar na vista");
+    scanf ("% i", & pag);
+    if (pag == 1) {
+    	valpagar = ptotal * 0,05;
+	}outro
+	 valpagar = ptotal;
+	 printf ("\ nTipo:% i", tipo);
+	 printf ("\ nQuantidade:% 2.f", qtd);
+	 printf ("\ nTipo de pagamento:% i", pag);
+	 printf ("\ nValor total:% 2.f", valpagar);
+	 sistema ("pausa");
+	 retornar 0;
+}
+ 
