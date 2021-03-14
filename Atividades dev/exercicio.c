@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <stdio.h> 
+//teste
 int main ()
 {
     float notaaluno[4][4],media[4];
